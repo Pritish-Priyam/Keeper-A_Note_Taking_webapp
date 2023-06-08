@@ -1,0 +1,350 @@
+.head{
+  display: flex;
+
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;  
+  padding: 10px 15px 10px 15px;
+  width: 100%;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 2px solid #dddfe3;
+}
+
+.heading{
+  font-size: 2.5rem;
+  
+  color: #63636f;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rest
+{
+  background-color: #fffefe;
+  /* for Dark mode use #202124 */
+}
+
+.with_input{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  padding-left: 7%;
+  align-items: center;
+}
+
+.inputText{
+  width: 50%;
+  min-width: 26rem;
+  font-size: 1.70rem;
+  outline: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  border: 3px solid #dddfe3;
+  padding: 6px;
+  padding-inline-start: 10px;
+}
+
+
+.inputText2{
+  text-align: start;
+  width: 50%;
+  min-width: 26rem;
+  font-size: 1.70rem;
+  min-height: 10rem;
+  height: 50%;
+  outline: none;
+  border-radius: 6px;
+  border: 3px solid #dddfe3;
+  padding: 6px;
+  margin-top: 2px;
+  padding-inline-start: 10px;
+}
+
+.addBtn{
+  display: none;
+  font-size: 20px;
+  width: 50px;
+  border-radius: 90%;
+  padding: 5px;
+  background-color: #fbbf0b;
+  outline: none;
+  border: none;
+  z-index: 1;
+  position: relative;
+  top: -20px;
+  left: 225px;
+}
+
+.footer{ 
+  display: flex; 
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.875);
+  border-top: 2px solid #dddfe3;
+}
+
+.note_all{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 35px;
+  min-height: 90vh;
+  height: fit-content;
+  width: 90vw;
+  padding: 25px;
+  padding-left: 6%;
+}
+
+.note{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.55rem;
+  outline-style: outset;
+  row-gap: 6px;
+  outline: 1px solid rgb(191, 182, 182);
+  background-color: white;
+  border: 2px solid white;
+  padding: 15px 15px 6px 15px;
+  border-radius: 10px;
+  width: 24rem;
+  min-width: 19rem;
+  min-height: 12%;
+  height: fit-content;
+  margin: 5px;
+  
+}
+
+.note:hover .btnNote_wrapper{
+  visibility: visible;
+  transition-delay: 0.1s;
+}
+
+.note:hover{
+  transition-delay: 0.1s;
+  box-shadow: 0px 0px 1.5px 1.5px #d1c6c6c8;
+}
+
+.btnNote_wrapper{
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btnNote{
+  outline: none;
+  border: none;
+  outline-style: none;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 20%;
+}
+
+.btnNote:hover{
+  background-color: #dddfe384;
+}
+
+.content{
+  display: flex;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 85px;
+  min-width: 60px;
+  min-height: 92vh;
+  background-color: #ffffff;
+  gap: 25px;
+  padding: 30px 10px 20px 10px;
+  border-right: 2px solid #dddfe3;
+}
+
+
+.btnSide:hover{
+  background-color: #feefc3;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  outline-style: none;
+}
+
+.greater_height{
+  min-height: 7rem;
+  height: fit-content;
+}
+
+.del{
+  width: 3rem;
+  aspect-ratio: 1.05;
+  background-color: transparent;
+  border-radius: 3.5px;
+  outline: none;
+  border: none;
+}
+
+.del:hover{
+  cursor: pointer;
+  transform: scaleY(1.05);
+}
+
+
+.btn{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.btnSide{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 60%;
+  padding: 8px;
+}
+
+.btn2{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.btn:hover{
+  background-color: #f1f3f4;
+}
+
+.btn1{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  background-color: #f1f3f4;
+  color: #202124;
+  border-radius: 20%;
+  
+}
+
+.search_wrapper{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+}
+
+.search_wrapper_content{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.expandClick{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.title{
+  display: flex;
+  gap: 8px;
+}
+
+
+.search_bar{
+  font-size: 1.7rem;
+  width: 80%;
+  min-width: 90px;
+  padding-inline-start: 9px;
+  border-radius: 5px;
+  background-color: #f1f3f4;
+  border-color: none;
+  border: none;
+  outline: none;
+  border-style: none;
+}
+
+.btn:focus{
+  outline: none;
+  border: none; 
+}
+
+.glass /*glass effect*/
+{
+    /*background-image: url("C:/Users/PRITISH/Downloads/Blog_Automatic-Number-Plate-Recognition-ANPR.jpg");;
+    background-size: cover;*/
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+
+
+h1{
+  margin: 0;
+  font-size: 1.50rem;
+  font-weight: bolder;
+}
+
+
+p{
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .head{
+    gap: 5px;
+    justify-content: space-evenly;
+  }
+
+  .heading{
+    display: none;
+  }
+
+  .search_bar{
+    font-size: 2rem;
+  }
+
+  .btn2{
+    display: none;
+  }
+
+  .sidebar{
+    display: none;
+  }
+
+  .btnVis{
+    display: none;
+  }
+  
+  .with_input{
+    width: 100vw;
+    padding: 0;
+  }
+
+  .note_all{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin: 5px;
+    padding-left: 7%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .greater_height{
+    min-height: 4rem;
+  }
+  .note{
+    width: 85%;
+    min-width: 16rem;
+    min-height: 10%;
+    height: fit-content;
+  }
+}
